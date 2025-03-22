@@ -100,3 +100,48 @@ h2{
     width: 69%;
     color: rgb(190, 190, 191);
 }
+
+.padre-taps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.taps{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-tab{
+    width: 28%;
+    margin-top: 81px;
+}
+.taps-1, 
+.taps-2, 
+.taps-3{
+    width: 110px;
+    height: 110px;
+    background-color: rgb(51, 51, 51);
+    margin: 0.5px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: 900;
+    border-radius: 3px;
+}
+#tap-colorZ{
+    background-color: rgb(255, 139, 56);
+    margin-top: 136px;
+}
+#btn-zapote{
+    background-color: rgb(255, 139, 56);
+    border: none;
+    width: 119px;
+    height: 44px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 52px;
+}
+#text-lab{
+    padding-top: 59px;
+}

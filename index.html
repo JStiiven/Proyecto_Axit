@@ -11,6 +11,22 @@
 <body>
     <header>
         <nav>
+            <div class="mobil">
+                <img src="Assets/Logo.png" alt="" id="logo">
+                <ul class="menu-horizontal">
+                    <li>
+                        <a href="#">Menu</a>
+                        <ul class="menu-vertical">
+                            <li>Features</li>
+                            <li>About</li>
+                            <li>Pricing</li>
+                            <li>Reviews</li>
+                            <li>Contact</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="deskopt">
             <img src="Assets/Logo.png" alt="" id="logo">
             <div>
                 <ul class="enlaces">
@@ -21,6 +37,7 @@
                     <li>Contact</li>
                 </ul>
             </div>
+        </div>
         </nav>
     </header>
     <div class="centro">
@@ -282,13 +299,13 @@
         <div class="text-axure">
             <h6>STYLISH AXURE DESING</h6>
             <div class="linea-sub"></div>
-            <p>Use the sections you need remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+            <p class="color-p">Use the sections you need remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
         </div>
         <button id="btn-center">Download</button>
     </div>
     <div class="contact-us">
         <div class="text-conctact">
-        <h1>CONTACT US</h1>
+        <h2>CONTACT US</h2>
         <div class="linea-sub"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
@@ -299,10 +316,11 @@
         <input type="text" placeholder="Subject">
     </div>
         <div class="llenado-derecha">
-            <input type="text" placeholder="Message">
+            <input type="text">
+            <label for="Message">Message</label>
         </div>
     </div>
-        <button>Send Message</button>
+        <button id="btn-send">Send Message</button>
     </div>
     <footer>
         <img src="Assets/wSocials.png" alt="">

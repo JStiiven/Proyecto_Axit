@@ -3,17 +3,21 @@
     margin: 0;
     font-family: sans-serif;
 }
-#logo{
-    height: 28px;
+.mobil{
+    display: none;
+    background-color: rgb(0, 0, 0);
 }
- nav{
+.deskopt{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(0, 0, 0);
     align-items: center;
     padding: 31px 0 31px 0;
- }
+}
+#logo{
+    height: 28px;
+}
 .enlaces{
     color: white;
     display: flex;
@@ -115,7 +119,9 @@ h2{
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    border-style: groove;
+    border-style: ridge;
+    border-top: none;
+    border-left: none;
 }
 .imagen-media{
     align-content: center;
@@ -239,7 +245,7 @@ h4{
 }
 h6{
     font-size: 38px;
-    font-family: 'Cabrito Sans';
+    font-family: sans-serif;
     font-weight: 300;
     padding: 108px 0 30px 0;
 }
@@ -277,7 +283,7 @@ h5{
     font-size: 16px;
 }
 .color-p{
-    color: gray;
+   color:rgb(196, 196, 196)
 }
 .p-awesome{
     color: gray;
@@ -456,7 +462,15 @@ h5{
     flex-direction: column;
     align-items: center;
 }
+.text-conctact h2{
+    margin-top: 109px;
+    font-size: 39px;
+    font-family: inherit;
+    font-weight: 100;
+    margin-bottom: 0;
+}
 .llenado-padre{
+    margin-top: 88px;
     display: flex;
     gap: 69px;
 }
@@ -483,4 +497,345 @@ footer{
     font-size: 13px;
     color: rgb(163, 163, 163);
     background-color: rgb(0, 0, 0);
+}
+#btn-send{
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    width: 145px;
+    height: 44px;
+    background-color: rgb(255, 155, 81);
+    margin: 42px 0 81px 0;
+}
+label{
+    position: absolute;
+    color: #aaa;
+    font-size: 14px;
+    translate: 0px -217px;
+}
+@media screen and (max-width:1169px) {
+    h1 {
+        width: 58%;
+    }
+    #info-center{
+        width: 66%;
+    }
+    .logo_info{
+        width: 45%;
+    }
+    .cabeza,
+    .relleno,
+    #get-btn{
+        width: auto;
+        padding: 0 20px 0 20px;
+    }
+    .image{
+      width: 46%;
+    }
+    .text-social{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .options1, 
+    .options2, 
+    .options3 {
+        width: 254px;
+    }
+    .images-customers {
+        gap: 53px;
+    }
+    .text-image {
+        width: 189px;
+        height: 95px;
+    }
+    .llenado-izquierdo input, 
+    .llenado-derecha input {
+        width: 346px;
+    }
+    .awsome-puntos {
+        width: 87%;
+    }
+}
+@media screen and (max-width:967px) {
+    h1 {
+        width: 64%;
+    }
+    .logo_info{
+        margin: 89px 0 108px 92px;
+    }
+    .text-tab{
+        width: 50%;
+    }
+    #imgen{
+        position: absolute;
+        translate: 422px 185px;
+    }
+    #imgen img{
+        width: 220px;;
+    }
+    .sub-sect{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-sub {
+        width: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .standard-sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-standard {
+        padding-bottom: 52px;
+        width: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 889px) {
+    .centro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo_info {
+        width: 68%;
+        margin: 89px 0 108px 0px;
+        text-align: center;
+    }
+    h1 {
+        width: 82%;
+        
+    }
+    #info-center{
+        width: 78%;
+    }
+    .formulario{
+        margin: -84px 0 60px 0;
+        width: 50%;
+    }
+    .imagen-media img{
+        width: 30px;        
+    }
+    .image {
+        width: 57%;
+    }
+    .options1, .options2, .options3 {
+        width: 219px;
+    }
+    .llenado-izquierdo input, 
+    .llenado-derecha input {
+        width: 246px;
+    }
+    .logo_info{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:769px) {
+    .awsome-puntos {
+        display: flex;
+        flex-direction: column;
+        width: 62%;
+    }
+    .awesome-text h6{
+        padding: 0px 0 30px 0;
+    }
+    .punto1,
+    .punto2,
+    .punto3{
+        padding: 47px 0 19px 0
+    }
+    .punto3{
+        margin-bottom: 20px;
+    }
+    .pricing-options{
+        display: flex;
+        flex-direction: column;
+    }
+    .options1, .options2, .options3 {
+        width: 309px;
+    }
+    .images-customers{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .text-image {
+        width: 281px;
+        height: 86px;
+    }
+    .text-customers h6{
+        width: 66%;
+    }
+    #imgen{
+        translate: 323px 185px;
+    }
+    .imagen-media img{
+        padding-left: 13px;
+    }
+}
+@media screen and (max-width:629px) {
+    .padre-taps{
+        display: flex;
+        flex-direction: column;
+        height: 904px;
+        padding: 0;
+    }
+    .taps{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 52%;
+    }
+    .text-tab{
+        text-align: center;
+        width: 71%;
+    }
+    #imgen {
+        position: absolute;
+        translate: -37px 606px;
+    }
+    .sub-sect{
+        padding: 0 0 60px 0;
+    }
+    #imgen-diseño{
+        width: 350px;
+    }
+    .image img {
+        width: 350px;
+    }
+    .llenado-izquierdo input, 
+    .llenado-derecha input {
+        width: 195px;
+        margin: 20px;
+    }
+    label{
+        translate: 0px -138px;
+    }
+    .llenado-padre {
+        gap: 23px;
+    }
+    .text-axure{
+        width: 74%;
+    }
+    .deskopt{
+        display: none;
+    }
+    .mobil{
+        display: block;
+    }
+    .formulario{
+        width: 68%;
+    }
+    .mobil {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 31px 0 31px 0;
+    }
+    .menu-vertical {
+        position: absolute;
+        display: none;
+        list-style: none;
+        font-weight: bold;
+        width: 112px;
+        background-color: rgb(44, 44, 43);
+    }
+    .menu-horizontal li:hover .menu-vertical {
+        display: block;
+    }
+    .menu-vertical li:hover{
+        background-color: rgb(19, 51, 110);
+    }
+}
+@media screen and (max-width:495px) {
+    .llenado-padre{
+        margin-top: 31px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    label{
+        translate: 23px -24px;
+    }
+    h6{
+        font-size: 30px;
+    }
+    .image img {
+        width: 260px;
+    }
+    #imgen-diseño {
+        width: 260px;
+    }
+    .text-sub{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cabeza, .relleno, #get-btn {
+        
+        padding: 0 20px 0 20px;
+    }
+    .relleno input{
+        width: 160px;
+    }
+    #imgen img {
+        width: 197px;
+    }
+    #imgen {
+        translate: -36px 639px;
+    }
+    #text-lab {
+        padding-top: 32px;
+    }
+    .text-tab{
+        width: 90%;
+    }
+    .logo_info {
+        width: 97%;
+    }
+    .text-standard{
+        width: 90%;
+    }
+    .image {
+        width: 69%;
+    }
+    .text-sub p{
+        width: 128%;
+    }
+    .awesome-text {
+        width: 75%;
+    }
+    .options1, .options2, .options3 {
+        width: 269px;
+    }
+    .text-conctact {
+        width: 80%;
+        text-align: center;
+    }
+    .text-customers{
+        width: 90%;
+    }
 }
